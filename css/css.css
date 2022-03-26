@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+}
+
+.header img {
+    max-width: 470px;
+    padding-top: 10px;
+}
+
+body  {
+ background-image: url(../images/layer.png);
+}
+
+.content img {
+    max-width: 100%;
+}
