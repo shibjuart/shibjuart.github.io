@@ -1,4 +1,4 @@
-.header, .content {
+.header, .content, .footer {
     text-align: center;
 }
 
@@ -9,7 +9,7 @@
 
 body  {
     background-image: repeating-radial-gradient(black, transparent 1px);
-    padding-bottom: 100%;
+    /*padding-bottom: 50%;*/
 }
 
 .content img {
@@ -21,14 +21,14 @@ body  {
     src: URL('Elephant.ttf') format('truetype');
 }
 
-.footer p {
+.info p {
     color: black;
     font-family: MyElephant;
     font-size: 77px;
     -webkit-text-stroke: 2px #ffc731;
 }
 
-.footer table td {
+.info table td {
     width: 50%;
     text-align: center;
 }
@@ -38,4 +38,8 @@ h2 {
     font-family: fantasy;
     font-size: 100px;
     -webkit-text-stroke: 2px #3166ff;
+}
+
+.footer {
+    margin-top: 50%;
 }
