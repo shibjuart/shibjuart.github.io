@@ -9,7 +9,6 @@
 
 body  {
     background-image: repeating-radial-gradient(black, transparent 1px);
-    /*padding-bottom: 50%;*/
 }
 
 .content img {
@@ -36,5 +35,7 @@ a {
 }
 
 .footer {
-    margin-top: 50%;
+    position: fixed;
+    bottom: 4%;
+    left: 34%;
 }
