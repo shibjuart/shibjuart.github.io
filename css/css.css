@@ -36,6 +36,7 @@ body {
     margin: 10px;
 }
 
-@media (max-width: 767px) {
-   html {overflow-x: hidden;}
- }
+.info, .footer {
+    overflow: hidden;
+    overflow-x: hidden;
+}
