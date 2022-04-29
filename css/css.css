@@ -15,12 +15,12 @@ body {
     height: 150px;
 }
 
-/*@font-face {
+@font-face {
     font-family: 'MyElephant';
     src: URL('Elephant.ttf') format('truetype');
 }
 
-.info p {
+/*.info p {
     color: black;
     font-family: MyElephant;
     font-size: 50px;
@@ -34,9 +34,16 @@ body {
     height: 50px;
     width: 85%;
     margin: 10px;
+    color: black;
+    font-family: MyElephant;
+    font-size: 30px;
 }
 
 .info, .footer {
     overflow: hidden;
     overflow-x: hidden;
 }
+
+@media (max-width: 750px) {
+   html {overflow-x: hidden;}
+ }
