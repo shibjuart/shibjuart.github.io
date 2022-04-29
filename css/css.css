@@ -32,6 +32,10 @@ body {
     background-color: transparent;
     border-radius: 30px;
     height: 50px;
-    width: 90%;
+    width: 85%;
     margin: 10px;
 }
+
+@media (max-width: 767px) {
+   html {overflow-x: hidden;}
+ }
