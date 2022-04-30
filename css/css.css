@@ -33,3 +33,7 @@ button.instagram {
     height: auto;
     text-align: center;
 }
+
+html {
+    overflow-x: hidden;
+}
