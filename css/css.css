@@ -1,14 +1,10 @@
-/*.header, .info, .footer {
+.header, .info, .footer {
     text-align: center;
-}*/
+}
 
 .header img {
     max-width: 380px;
 }
-
-/*body {
-    background-image: repeating-radial-gradient(black, transparent 1px);
-}*/
 
 .footer img {
     height: 150px;
@@ -37,12 +33,3 @@ button.instagram {
     height: auto;
     text-align: center;
 }
-
-/*.info, .footer {
-    overflow: hidden;
-    overflow-x: hidden;
-}
-
-@media (max-width: 750px) {
-   html {overflow-x: hidden;}
-}*/
