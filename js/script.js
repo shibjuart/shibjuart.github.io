@@ -17,7 +17,7 @@ $(document).ready(function() {
             $(clazz).height(44);
             $(clazz).html(name + ' <svg width="20" height="20"><use xlink:href="#arrow"/></svg>');
         } else {
-            $(clazz).height(294);
+            $(clazz).height('auto');
             $(clazz).html(text);
         }
     }
