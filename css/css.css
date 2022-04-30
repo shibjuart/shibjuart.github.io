@@ -6,10 +6,9 @@
     max-width: 380px;
 }
 
-body {
-    /*background-image: repeating-radial-gradient(black, transparent 1px);*/
-    /*background-image: url('../images/layer.png');*/
-}
+/*body {
+    background-image: repeating-radial-gradient(black, transparent 1px);
+}*/
 
 .footer img {
     height: 150px;
@@ -17,15 +16,8 @@ body {
 
 @font-face {
     font-family: 'MyElephant';
-    src: URL('Elephant.ttf') format('truetype');
+    src: URL('Cheque-Black.otf') format('truetype');
 }
-
-/*.info p {
-    color: black;
-    font-family: MyElephant;
-    font-size: 50px;
-    -webkit-text-stroke: 2px #ffc731;
-}*/
 
 .menu button {
     border: 2px solid rgb(0, 0, 0);
@@ -44,11 +36,6 @@ button.instagram {
     color: white;
 }
 
-/*button.about {
-    background-image: url('../images/back.jpg');
-    color: deeppink;*/
-}
-
 .info, .footer {
     overflow: hidden;
     overflow-x: hidden;
@@ -56,4 +43,4 @@ button.instagram {
 
 @media (max-width: 750px) {
    html {overflow-x: hidden;}
- }
+}
