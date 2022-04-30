@@ -1,6 +1,6 @@
-.header, .content, .info, .footer {
+/*.header, .info, .footer {
     text-align: center;
-}
+}*/
 
 .header img {
     max-width: 380px;
@@ -38,11 +38,11 @@ button.instagram {
     text-align: center;
 }
 
-.info, .footer {
+/*.info, .footer {
     overflow: hidden;
     overflow-x: hidden;
 }
 
 @media (max-width: 750px) {
    html {overflow-x: hidden;}
-}
+}*/
