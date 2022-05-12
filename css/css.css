@@ -3,7 +3,7 @@
 }
 
 .header img {
-    max-width: 380px;
+    max-width: 324px;
 }
 
 .footer img {
@@ -20,9 +20,9 @@
     src: URL('Cheque-Regular.otf') format('truetype');
 }
 
-.menu button {
+.info button {
     border: 2px solid rgb(0, 0, 0);
-    background-color: transparent;
+    background-color: white;
     border-radius: 30px;
     height: 50px;
     width: 85%;
@@ -39,13 +39,48 @@ button.instagram {
     font-family: ChequeRegular;
 }
 
-.about svg, .projects svg {
+.about svg, .projects svg, .artworks svg {
     vertical-align: baseline;
 }
 
-.footer span {
-    font-family: fantasy;
-    color: black;
-    font-size: 70px;
-    -webkit-text-stroke: 2px #f6c953;
+.mobile .work {
+    max-width: 89% !important;
+}
+.mobile .work-name {
+    width: 89% !important;
+    margin-left: 5.5% !important;
+    font-size: 20px !important;
+}
+
+.mobile button {
+    font-size: 20px;
+}
+
+.work {
+    border: 2px solid black;
+    max-width: 35%;
+}
+.work-name {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: black;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: black;
+    width: 35%;
+    margin-left: 32.5%;
+    font-family: ChequeBlack;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+button.about {
+    height: auto;
+}
+
+body {
+    background-image: repeating-radial-gradient(black, transparent 48px);
 }

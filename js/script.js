@@ -2,12 +2,20 @@ $(document).ready(function() {
 
     "use strict";
 
+    if ($(window).height() > $(window).width()) {
+        $("body").addClass("mobile");
+    }
+
     $(".about").click(function() {
         toggleArea(".about", "О", 'Всевидящее око? Третий глаз? Масоны? Глаз символизирует сокрытую истину, призывает к мудрости и обращается к совести. Отвечает за духовное видение и познание. "Очи Господа находятся повсюду, созерцая и наблюдая за злом и добром". На тебя смотрят, что будешь делать?');
     });
 
     $(".projects").click(function() {
         toggleArea(".projects", "Проекты", '1) Глаза - зеркало души </br> 2) Добавим городу красок');
+    });
+
+    $(".artworks").click(function() {
+        toggleArea(".artworks", "Работы", '<div><img class="work" src="images/mult.png"></div><div class="work-name">Mult</div><div><img class="work" src="images/Untitled-1.png"></div><div class="work-name">Emotions</div>');
     });
 
     function toggleArea(clazz, name, text) {
