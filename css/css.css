@@ -39,6 +39,18 @@ button.instagram {
     font-family: ChequeRegular;
 }
 
+.shibju-text {
+    font-family: ChequeRegular;
+    letter-spacing: 0.2em;
+    border: 1px solid;
+}
+
+.inst-text {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+    border-radius: 5px;
+}
+
 .about svg, .projects svg, .artworks svg {
     vertical-align: baseline;
 }
