@@ -64,6 +64,10 @@ button.instagram {
     font-size: 20px !important;
 }
 
+.work-name, .work {
+    background-color: white;
+}
+
 .mobile button {
     font-size: 20px;
 }
@@ -87,10 +91,6 @@ button.instagram {
     font-family: ChequeBlack;
     font-size: 30px;
     margin-bottom: 10px;
-}
-
-button.about {
-    height: auto;
 }
 
 body {
